@@ -1,0 +1,47 @@
+<!DOCTYPE >
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="styles/singup-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+<body class="container" id="container">
+    <div class="wrapper" id="wrapper">
+        <div class="title" id="title">Sign Up Form</div>
+        <form action="#" method="post">
+            <div class="field" id="field">
+                <input type="text" required>
+                <label>Email Address</label>
+            </div>
+            <div class="field" id="field1">
+                <input type="text" required>
+                <label>Enter a valid user name</label>
+            </div>
+            <div class="field" id="field2">
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <div class="field" id="field3">
+                <input type="password" required>
+                <label>Password Again</label>
+            </div>
+            <div class="field" id="field4">
+                <input type="submit" value="sign up">
+            </div>
+            <div class="signup-link">already have an account <a href="login-form-2.php">Login Now</a></div>
+        </form>
+    </div>
+    <button class="dark-btn" id="dark-btn" onclick="dark()">DARK MODE</button>
+    <button class="light-btn" id="light-btn" onclick="light()">LIGHT MODE</button>
+    <script src="js/js-singup.js"></script>
+</body>
+
+</html>
